@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-family: "Roboto", sans-serif;
+}
+
+.container {
+width: 1125px;
+margin: 0 auto;
+}
+
+.header  {
+display: flex;
+justify-content: space-between ;
+align-items: center;
+padding: 20px  0;
+}
+
+.header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: #2e2c2c
+}
+.header-icons {
+display: flex;
+gap: 20px;
+    
+}
+
+.main {
+    box-shadow: 0 0 10px rgba(56, 55, 55, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+padding: 100px 0;
+}
+
+.pnnn {
+    width: 562.97px;
+    height: 361.61px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 135%;
+}
+
+p {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+button {
+    padding:12px 32px ;
+    border-radius: 4px;
+    background-color: rgba(243, 4, 4, 0.979);
+    color: white;
+    font-size: 18px;
+
+}
+.Making {
+    padding: 10px 0;
+}
+
+h1 span {
+    color: #EE4248;
+
+}
+
+.Managed {
+    margin: 20px 0;
+}
+.about {
+    display: flex;
+    gap: 80px;
+    padding: 0;
+}
+
+.about-wrapper {
+    
+    background-color: aliceblue;
+}
+
+
+h2 {
+    font-size: 32px;
+}
+
+
+h2 span {
+    color: #EE4248;
+}
+
+.spasss {
+   display: flex;
+ margin: 40px auto;
+  text-align: center;
+ }
+
+
+
+.product h1 {
+    display: flex;
+    margin: 40px auto;
+    
+}
+
+.clom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px ;
+    flex-wrap: wrap
+}
+
+footer {
+    background-color: #fff; 
+    width: 1126px;
+    margin:40px  auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+}
+
+.logo {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-left h4,
+.footer-right h4 {
+    margin-bottom: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #e53935;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
